@@ -1,0 +1,20 @@
+.AdminCards img{
+    min-width:290px;
+    max-width:290px;
+    min-height:220px;
+    max-height:220px;
+    /* border: 1px solid black; */
+    margin: 0px;
+    margin-left:25px;
+    margin-top: 20px;
+}
+.AdminCards .card{
+    width:20vw;
+    height: 50vh;
+    margin-top: 20px;
+    
+}
+.AdminCards{
+    margin-bottom: 50px;
+}
+    

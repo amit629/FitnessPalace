@@ -1,0 +1,28 @@
+.orderH1 {
+    color: #88B04B;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .orderp {
+    color: #404F5E;
+    font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+    font-size:20px;
+    margin: 0;
+  }
+  .orderi {
+  color: #9ABC66 ;
+  font-size: 100px !important;
+  line-height: 200px !important;
+  position: relative;
+right: 10px;
+}
+.orderCard {
+  background: white !important;
+  padding: 60px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 3px #C8D0D8 !important;
+  display: inline-block !important;
+  margin: 0 auto !important ;
+}

@@ -1,0 +1,241 @@
+
+
+@import url('../node_modules/bootstrap/dist/css/bootstrap.css');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* background-color:rgba(67, 65, 65, 0.2) !important; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.card-img-top-two{
+  min-width: 100%;
+  min-height: 100%;
+  max-height:100% !important;
+  max-width: 100% !important;
+}
+
+.card-body-two{
+  position: absolute;
+  top:40%;
+  left:20%;
+  z-index: 2;
+}
+/* .card-body-two a{
+  display: inline-block;
+  height:100px;
+  width:200px;
+} */
+
+
+.checked{
+  color:orange;
+}
+.sp-css{
+  height: 50vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.sp-css-two{
+  height: 88vh;
+  width: 100%;
+  border:3px solid black;
+  /* margin-left: 10%; */
+}
+.sp-css-three{
+  height: 87.8vh;
+  width: 100%;
+  border:3px solid black; 
+  /* padding: 10px; */
+}
+.GymCardPhoto{  
+  width: 3vw;
+}
+.rm-scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.sp-img{
+  height:40vh;
+  border-radius: 10px;
+}
+.carousel-item{
+  border-radius:10px;
+}
+.OpeningHours{
+  position: absolute;
+  top:48vh;
+  left:15vw;
+}
+.aboutGymContainer{
+  height: 87.4vh;
+  overflow: auto;
+}
+.aboutGymContainer::-webkit-scrollbar{
+  display: none;
+}
+.nearByCardsSpecialClass{
+  height: 92vh;
+  /* width:90%; */
+  overflow: auto;
+}
+.nearByCardsSpecialClass::-webkit-scrollbar{
+  display:none;
+}
+
+.sp-button-class{
+  background-color:transparent;
+  color: red;
+  outline: none;
+  border: none;
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top:30%;
+  left:82%;
+  text-decoration: none;
+}
+.userClass{
+  color: red;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top:30%;
+  left:78%;
+  text-decoration: none;
+}
+.logoutClass{
+  color:red;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top:30%;
+  left:2%;
+  text-decoration: none;
+  background-color: transparent;
+}
+.sp-background{
+  background: url('./img/LandingBackground.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sp-Landing-Card-Text{
+  position: absolute;
+  width: 110px;
+  height: 38px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 0px 8px black;
+}
+.LandingCard{
+  background-color: #000000;
+}
+.LandingCard img{
+  border: 5px solid lightblue;
+}
+.LandingCard a{
+  border: none;
+}
+
+.LandingCard:hover{
+  box-shadow:0px 0px 10px white;
+  transform:scale3d(100px 100px);
+}
+.bg-special-fitnessPalace{
+  background-color: rgba(0, 0, 0,0.8);
+}
+.lineSpecial{
+  color: black;
+  border:1px solid black;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom:0px;
+}
+.spInpLog,.spTextARLog,.spSel{
+
+  padding: 0.5rem !important;
+
+  border: double 3px transparent !important;
+
+  width:700px !important;
+
+  height:50px !important;
+
+
+
+  border-radius: 20px !important;
+
+  background-image: linear-gradient(white, grey), 
+
+                    linear-gradient(to left, rgb(34, 255, 34),rgb(31, 130, 31)) !important;
+
+  background-origin: border-box !important;
+
+  background-clip: padding-box, border-box !important;
+  text-indent: 22px;
+
+}
+
+.spTextARLog{
+  height:200px !important; 
+  border-radius:20px !important;
+}
+.spTextARLog::-webkit-scrollbar{
+  display: none;
+}
+.spSel[multiple]{
+  height:100px !important;
+}
+.spSel[multiple]::-webkit-scrollbar{
+  display: none;
+}
+.spSel[multiple] option{
+  border-radius: 20px;
+  
+}
+.spSel[multiple] option:checked{
+  background-color: #000000 !important;
+  color: white !important;
+  
+}
+.spTextARLog::placeholder{
+  text-indent: 22px;
+}
+.spInpLog::placeholder{
+  text-indent: 22px;
+}
+::-webkit-file-upload-button {
+  display: none;
+}

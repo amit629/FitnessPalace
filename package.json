@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "cd ./node_modules/cors-anywhere&node server.js"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.1.0",
+    "@stripe/stripe-js": "^1.52.1",
+    "cors-anywhere": "^0.4.4"
+  }
+}

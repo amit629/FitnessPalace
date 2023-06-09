@@ -1,0 +1,57 @@
+.spConWorkout{
+    /* background-color: red; */
+    /* padding:30px;
+    padding-top:10px;
+    padding-bottom:10vh;
+    top:10px; */
+}
+
+.buttonC{
+    width:160px;
+    height: 60px;   
+    background-color: white;
+    color: black;
+    border: 3px solid green;
+    border-radius:40px;
+    margin-top: 30px;
+    background-image: linear-gradient(white, gray), 
+
+    linear-gradient(to left, rgb(34, 255, 34),rgb(31, 130, 31)) !important;
+
+}
+.buttonC:hover{
+    color: white;
+    /* background-color: green; */
+    background-image: linear-gradient(rgb(34, 33, 33), green), 
+
+    linear-gradient(to left, rgb(34, 255, 34),rgb(31, 130, 31)) !important;
+}
+
+.buttonCBackgr{
+    background-color: green;
+
+}
+.body-map__muscle{
+    color:white;
+}
+.body-map__muscle:hover{
+    color:red;
+}
+.dummyContainer{
+    height:80vh !important;
+    position: relative;
+    left:10vw;
+}
+.workoutAlign{
+    position: relative;
+    top:60px;
+}
+.workoutAlign ol li{
+    font-size:2rem !important;
+}
+.adminControls{
+    display: inline-block;
+    position:relative;
+    background-color:red;
+    margin-top:100px;
+}
